@@ -1,0 +1,38 @@
+.cart-section h1{
+    display: flex;
+    justify-content: center;
+    margin: 35px 0;
+    font-size: 45px;
+}
+
+.cart-total{
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    align-items: flex-end;
+    margin: 0 0 35px 0;
+}
+
+.btn-clear{
+    border: 3px solid salmon;
+    background: none;
+    border-radius: 5px;
+    color: salmon;
+    font-weight: bolder;
+    padding: 5px 40px;
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+    margin: 30px 0 10px 0;
+    font-size: 18px;
+}
+
+.btn-clear:hover{
+    color: white;
+    background: salmon;
+}
+
+.cart-total h3{
+    font-size: 25px;
+    margin: 5px 0;
+    letter-spacing: 2px;
+}

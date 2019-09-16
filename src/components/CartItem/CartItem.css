@@ -1,0 +1,56 @@
+.cart-table{
+    width: 100%;
+}
+
+td img{
+    height: 100px;
+    width: 100px;
+}
+
+tr td{
+    text-align: center;
+    font-weight: bold;
+}
+
+.fa-trash-alt{
+    color: orange;
+    cursor: pointer;
+    transition: color .2s ease-in-out;
+    font-size: 19px;
+}
+
+.fa-trash-alt:hover{
+    color: orangered;
+}
+
+.btn-remove{
+    border: 2px solid black;
+    padding: 4px 10px;
+    background: none;
+    cursor: pointer;
+    transition: border .2s ease-in-out;
+}
+
+.btn-add{
+    border: 2px solid black;
+    padding: 4px 10px;
+    background: none;
+    cursor: pointer;
+    transition: border .2s ease-in-out;
+}
+
+.btn-add:hover{
+    border: 2px solid green;
+}
+
+.btn-remove:hover{
+    border: 2px solid red;
+}
+
+.item-count{
+    border: 2px solid black;
+    padding: 1px 10px 3px 10px;
+    background: none;
+    margin: 5px;
+}
+
