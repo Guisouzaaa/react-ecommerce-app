@@ -1,6 +1,6 @@
 import React from 'react';
 import './Product.css';
-import { BrowserRouter as Router, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 const Product = ({ item, addItemToCart }) => {
     return (

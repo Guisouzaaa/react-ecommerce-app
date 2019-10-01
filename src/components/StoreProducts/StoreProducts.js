@@ -3,7 +3,7 @@ import './StoreProducts.css';
 import { storeProducts } from '../../setup-files/data';
 import Product from '../Product/Product';
 import '../Product/Product.css';
-import { BrowserRouter as Router, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 
 
